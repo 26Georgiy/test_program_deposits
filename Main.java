@@ -45,15 +45,12 @@ public class Main {
             } else {
                 int sum1 = (int) ((num * 0.16 / 3 * 4) + num);
                 int sum2 = (int) ((num * 0.12 / 3 * 4) + num + 500);
+                System.out.println("Your amount, if You choose PrivatBank");
                 System.out.println(sum1);
-                System.out.println("You can choose PrivatBank");
+                System.out.println("Your amount, if choose OTP-Bank");
                 System.out.println(sum2);
-                System.out.println("You can choose OTP-Bank");
                 System.out.println("What bank do You prefer?");
-
             }
-
         }
-
     }
 }
